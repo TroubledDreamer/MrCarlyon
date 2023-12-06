@@ -1,0 +1,47 @@
+img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+#main-body {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#link-body{
+    display: flex;
+}
+
+#git-img-icons,#live-img-icons{
+    width: 40px;
+    height: 40px;
+    color: black;
+
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+/* 
+#inner-content{
+    margin-left: px;
+} */
+
+#body{
+    margin: 5%;
+
+}
+
+#link-body{
+    margin-top: 8px;
+    margin-left: 10px;
+
+}

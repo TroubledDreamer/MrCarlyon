@@ -1,0 +1,38 @@
+#body-section{
+    width: 80%;
+    margin: auto;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #0e0e26;
+    color: #bc56e9;
+    display: flex;
+}
+
+#body-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p {
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        writing-mode: vertical-rl; 
+        text-orientation: upright; 
+        /* transform: rotate(180deg); */
+
+}
+
+

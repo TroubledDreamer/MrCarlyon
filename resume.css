@@ -1,0 +1,23 @@
+.middlers{
+    text-align: center;
+}
+
+#body-section{
+    width: 60%;
+    margin: auto;
+}
+
+p {
+    font-size: 20px;
+
+}
+
+body {
+    background-color: #9a747f;
+    color: #e5dacd;
+    
+}
+
+h2 {
+    color: #ccb4a4;
+}
