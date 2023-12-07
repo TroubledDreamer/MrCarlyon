@@ -1,0 +1,77 @@
+#item{
+    display: flex;
+    background-color: #494d7e;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    width: 95%;
+    font-size: 14px;
+    margin: auto;
+    margin-top: 10px;
+    color: #f2d3ab;
+    
+    
+
+
+}
+
+#container{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 70%;
+    height: 80%;
+
+
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #272744; /* Optional: Set a background color */
+}
+
+li{
+    line-height: 25px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #f2d3ab; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Roundness of the scrollbar thumb */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #494d7e; /* Color of the scrollbar track */
+  }
+
+
+/* Hide the image initially */
+.hover-image {
+    display: none;
+    position: fixed; /* Change to fixed */
+    transition: transform 0.3s ease-out;
+    width: 30px;
+}
+
+/* Show and float the image when the container is hovered */
+.hover-container:hover .hover-image {
+    display: block;
+    transform: translate(-50%, -50%) scale(1.1); /* Adjust the position and scale */
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}

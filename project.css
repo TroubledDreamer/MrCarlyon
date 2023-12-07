@@ -5,8 +5,8 @@ img{
 
 #main-body {
     display: flex;
-    justify-content: space-between;
     margin: auto;
+
 }
 
 #link-body{
@@ -20,6 +20,23 @@ img{
 
 }
 
+#live-img-icons{
+    margin-left: 10px;
+}
+
+#link-body p{
+    font-size: 20px;
+
+}
+
+#git{
+    display: flex;
+}
+
+#live{
+    display: flex;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -29,14 +46,26 @@ body, html {
     align-items: center;
     height: 100vh;
 
+
 }
+
+body{
+    background-color: #313131;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px
+  }
+
 /* 
 #inner-content{
     margin-left: px;
 } */
 
 #body{
-    margin: 5%;
+    margin: 3%;
+    padding: 5%;
+    background-color: white;
+    border-radius: 5px;
 
 }
 
@@ -44,4 +73,8 @@ body, html {
     margin-top: 8px;
     margin-left: 10px;
 
+}
+
+#inner-content {
+    margin-left: 5%;
 }

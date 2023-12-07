@@ -3,6 +3,11 @@
   }
 
 #body-outer-section {
+    flex: 1;
+    height: 80%;
+
+}
+#body-outer-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,11 +49,9 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'Press Start 2P', cursive;
 }
 
 body, html {
-    background-color: #3c2f52;
     color: #4995f3;
     margin: 0;
     padding: 0;
@@ -56,20 +59,15 @@ body, html {
     overflow: hidden;
 }
 
-#body-outer-section {
-    flex: 1;
 
-}
-
-a img {
-    width: 40px;
-    height: 40px;
-    color: black;
-
-}
 
 
 
 /* #project-header {
     align-self: flex-end;
 } */
+
+h1 {
+    font-size: 120%;
+    margin: 3px;
+}

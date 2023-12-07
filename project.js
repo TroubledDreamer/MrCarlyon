@@ -98,10 +98,6 @@ function configer_set(item){
         setTechStach(text)      
     }
 
-
-
-    console.log(content[3]);
-
     
 
     img_var.src = img;
@@ -127,7 +123,7 @@ document.addEventListener("keydown", function (event) {
             // Perform actions for Arrow Up key
             break;
         case "ArrowDown":
-            window.location.href = 'event.html';
+            window.location.href = 'index.html';
             // Perform actions for Arrow Down key
             break;
         case "ArrowLeft":

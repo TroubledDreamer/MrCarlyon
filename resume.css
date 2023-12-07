@@ -8,16 +8,26 @@
 }
 
 p {
-    font-size: 20px;
+    font-size: 17px;
 
 }
 
 body {
-    background-color: #9a747f;
-    color: #e5dacd;
+    background-color: #0f172a;
+    color: #dee3ec;
+    overflow:auto;
+
     
 }
 
 h2 {
-    color: #ccb4a4;
+    color: #dbe1e9;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
 }
