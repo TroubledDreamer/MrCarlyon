@@ -1,3 +1,7 @@
+var instructionsShown = localStorage.getItem('instructionsShown');
+localStorage.setItem('instructionsShown', 'true');
+
+
 document.addEventListener("keydown", function (event) {
     switch (event.key) {
         case "ArrowUp":

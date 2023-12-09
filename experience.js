@@ -1,3 +1,7 @@
+var instructionsShown = localStorage.getItem('instructionsShown');
+localStorage.setItem('instructionsShown', 'true');
+
+
 let hideImageTimeout;
 const hoverContainer = document.querySelector('.hoverContainer');
 function moveImage(event) {

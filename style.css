@@ -11,11 +11,13 @@
 
 #main-image {
     width: 400px;
+    border: 7px black solid;
+    border-radius: 60px;
 
 }
 
 #body-inner-section{
-    color: #4656a5;
+    color: black;
     display: flex;
     width: 80%;
 }
@@ -48,8 +50,11 @@ body {
 }
 
 body, html {
-    background-color: #3c2f52;
-    color: #4995f3;
+    background-color: #222323
+    ;
+    ;
+    color: black;
+
     margin: 0;
     padding: 0;
     height: 100%;
@@ -64,7 +69,7 @@ body, html {
 a img {
     width: 40px;
     height: 40px;
-    color: black;
+
 
 }
 
@@ -73,3 +78,22 @@ a img {
 /* #project-header {
     align-self: flex-end;
 } */
+
+
+@font-face {
+    font-family: myFont;
+    /* src: url(/fonts/TheWildBreathOfZelda-15Lv.ttf); */
+    /* src: url(/fonts/Space\ Game.ttf); */
+    /* src: url(/fonts/Triforce-y07d.ttf); */
+    /* src:url(/fonts/04B_30__.TTF); */
+    src: url(/fonts/CC\ Wild\ Words\ Roman.ttf);
+} 
+
+body{
+    font-family: myFont;
+    font-size: 25px;
+    background-color: #f0f6f0;
+    color: black;
+
+
+}

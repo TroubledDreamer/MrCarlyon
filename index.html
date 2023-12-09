@@ -6,8 +6,82 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <title>Home</title>
+
+    <style>
+        /* Styles for the card */
+@font-face {
+    font-family: myFont;
+    /* src: url(/fonts/TheWildBreathOfZelda-15Lv.ttf); */
+    /* src: url(/fonts/Space\ Game.ttf); */
+    /* src: url(/fonts/Triforce-y07d.ttf); */
+    /* src:url(/fonts/04B_30__.TTF); */
+    src: url(/fonts/CC\ Wild\ Words\ Roman.ttf);
+} 
+
+body{
+    font-family: myFont;
+    background-color: #f0f6f0;
+    color: black;
+
+
+}
+
+#intro{
+    width: 400px;
+}
+
+
+#instruction-card {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    font-size: medium;
+
+    border: 5px #ed8d84 solid;
+}
+    </style>
+
+<script>
+    // Function to show the instruction card
+    function showCard() {
+        document.getElementById('instruction-card').style.display = 'block';
+    }
+
+    // Function to hide the instruction card
+    function hideCard() {
+        document.getElementById('instruction-card').style.display = 'none';
+    }
+
+    var instructionsShown = localStorage.getItem('instructionsShown');
+
+
+    // If not shown, display instructions and set the flag
+    if (instructionsShown) {
+        hideCard()
+        
+    }
+
+    // Event listener for key press
+
+
+
+</script>
 </head>
-<body>
+<body onload="showCard()">
+    <!-- Instruction Card -->
+    <div id="instruction-card">
+        <div style="margin: 10px;">
+        <img id="intro" src="/images/arrow-key-icon.png" alt="">
+        <p>Use your <strong>Arrow Keys</strong> to navagate my site!!!</p>
+    </div>
+    </div>
     
 
 
@@ -22,12 +96,17 @@
             <img id="main-image" src="images/Mrcarlyon.png" alt="Picture of carlyon">
 
             <div id="main-textarea">
-            <h1>Carlyon Jones-Armour</h1>
+            <h2>Carlyon Jones-Armour</h2>
+            <h3>  Full Stack developer</h3>
             <p>
-                Hello, I'm Carlyon Jones-Armour, originally from Dominica and Trinidad. I find joy in programming, assisting others, and teaching,<dr></dr>
-                with a side interest in web design. With over 3 years of programming experience, I work with CSS, SQL, PHP, JavaScript, HTML, WordPress, 
-                React/React Native, Java, C, and Python. Additionally, I have familiarity with C+ and C#.
+                I live to program and create cool stuff.
             </p>
+       
+            <p>
+                Java | HTML | CSS | JavaScript | PHP | SQL | React | Python | C 
+                
+            </p>
+
 
             <a href="https://www.linkedin.com/in/carlyon-jones-armour-3639801b5/"><img src="/images/linkedin.png" alt="linkedin"></a>
             <a href="https://github.com/TroubledDreamer"><img src="/images/github.png" alt="github"></a>

@@ -32,6 +32,7 @@
 #project-header,
 #about-header{
 
+    
         writing-mode: vertical-rl; 
         text-orientation: upright; 
         /* transform: rotate(180deg); */
@@ -52,7 +53,6 @@ body {
 }
 
 body, html {
-    color: #4995f3;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -68,6 +68,7 @@ body, html {
 } */
 
 h1 {
-    font-size: 120%;
+    font-size: 50px;
     margin: 3px;
 }
+

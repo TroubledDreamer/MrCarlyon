@@ -1,3 +1,11 @@
+@font-face {
+    font-family: myFont;
+    /* src: url(/fonts/TheWildBreathOfZelda-15Lv.ttf); */
+    /* src: url(/fonts/Space\ Game.ttf); */
+    src: url(/fonts/Triforce-y07d.ttf);
+}
+
+
 #body-section{
     width: 80%;
     margin: auto;
@@ -33,6 +41,12 @@ h1 {
         text-orientation: upright; 
         /* transform: rotate(180deg); */
 
+}
+
+body{
+    font-family: myFont;
+    font-size: 25px;
+    letter-spacing: 7px;
 }
 
 
