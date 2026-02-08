@@ -1,0 +1,99 @@
+#resume-header {
+    text-align: center;
+  }
+
+#body-outer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#main-image {
+    width: 400px;
+    border: 7px black solid;
+    border-radius: 60px;
+
+}
+
+#body-inner-section{
+    color: black;
+    display: flex;
+    width: 80%;
+}
+
+#event-header{
+    text-align: center;
+}
+
+#project-header,
+#about-header{
+
+        writing-mode: vertical-rl; 
+        text-orientation: upright; 
+        /* transform: rotate(180deg); */
+
+}
+
+#main-textarea{
+    width: 60%;
+    margin-left: 20px;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body, html {
+    background-color: #222323
+    ;
+    ;
+    color: black;
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+#body-outer-section {
+    flex: 1;
+
+}
+
+a img {
+    width: 40px;
+    height: 40px;
+
+
+}
+
+
+
+/* #project-header {
+    align-self: flex-end;
+} */
+
+
+@font-face {
+    font-family: myFont;
+    /* src: url(/fonts/TheWildBreathOfZelda-15Lv.ttf); */
+    /* src: url(/fonts/Space\ Game.ttf); */
+    /* src: url(/fonts/Triforce-y07d.ttf); */
+    /* src:url(/fonts/04B_30__.TTF); */
+    src: url(/fonts/CC\ Wild\ Words\ Roman.ttf);
+} 
+
+body{
+    font-family: myFont;
+    font-size: 25px;
+    background-color: #f0f6f0;
+    color: black;
+
+
+}

@@ -1,0 +1,35 @@
+.middlers{
+    text-align: center;
+}
+
+#body-section{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+   
+}
+
+p {
+    font-size: 17px;
+
+}
+
+body {
+    background-color: #0f172a;
+    color: #dee3ec;
+    overflow:auto;
+
+    
+}
+
+h2 {
+    color: #dbe1e9;
+}
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 30px;
+}

@@ -1,0 +1,74 @@
+#resume-header {
+    text-align: center;
+  }
+
+#body-outer-section {
+    flex: 1;
+    height: 80%;
+
+}
+#body-outer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#main-image {
+    width: 400px;
+
+}
+
+#body-inner-section{
+    color: #4656a5;
+    display: flex;
+    width: 80%;
+}
+
+#event-header{
+    text-align: center;
+}
+
+#project-header,
+#about-header{
+
+    
+        writing-mode: vertical-rl; 
+        text-orientation: upright; 
+        /* transform: rotate(180deg); */
+
+}
+
+#main-textarea{
+    width: 60%;
+    margin-left: 20px;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+/* #project-header {
+    align-self: flex-end;
+} */
+
+h1 {
+    font-size: 50px;
+    margin: 3px;
+}
+

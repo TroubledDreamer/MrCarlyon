@@ -1,0 +1,134 @@
+img{
+    width: 60%;
+    border-radius: 10px;
+    border: 5px #f6cd26 solid;
+    
+}
+
+a img {
+    border: 2px #ac6b26
+    solid;
+    border-radius: 50%;
+    margin-right: 5px;
+
+
+}
+
+#main-body {
+    display: flex;
+    margin: auto;
+
+}
+
+#link-body{
+    display: flex;
+}
+
+#git-img-icons,#live-img-icons{
+    width: 40px;
+    height: 40px;
+    color: black;
+
+}
+
+#live-img-icons{
+    margin-left: 10px;
+}
+
+#link-body p{
+    font-size: 20px;
+
+}
+
+#git{
+    display: flex;
+}
+
+#live{
+    display: flex;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+body{
+    background-color: #202020
+
+    ;
+    color: #f6cd26
+    ;
+    text-shadow: -1px 1px 0 #ac6b26
+    , 
+    1px 1px 0 #ac6b26
+    , 
+   1px -1px 0 #ac6b26
+   , 
+  -1px -1px 0 #ac6b26
+  ; 
+    background-image: radial-gradient(#f6cd26
+    2px, transparent 0);
+    background-size: 30px 30px;
+    background-position: -5px -5px
+
+
+
+  }
+
+/* 
+#inner-content{
+    margin-left: px;
+} */
+
+#body{
+    margin: 3%;
+    padding: 5%;
+    background-color: #393939
+
+    ;
+    border-radius: 5px;
+
+}
+
+#link-body{
+    margin-top: 8px;
+    margin-left: 10px;
+
+}
+
+#inner-content {
+    margin-left: 5%;
+}
+
+h1 {
+    font-size:50px;
+    margin: 3px;
+}
+
+@font-face {
+    font-family: myFont;
+    /* src: url(/fonts/TheWildBreathOfZelda-15Lv.ttf); */
+    /* src: url(/fonts/Space\ Game.ttf); */
+    /* src: url(/fonts/Triforce-y07d.ttf); */
+    src:url(/fonts/04B_30__.TTF);
+    /* src: url(/fonts/VCR_OSD_MONO_1.001.ttf); */
+} 
+
+body{
+    font-family: myFont;
+
+}
+
+a{
+    color: #f6cd26;
+
+
+}
